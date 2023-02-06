@@ -1,21 +1,21 @@
 import React from 'react';
-import logo from '../assets/holberton-logo.jpg';
 import './Login.css';
 
 function Login() {
     return (
-        <>
-            <section className='form-inputs'>
-                <section className='input'>
+        <React.Fragment>
+            <div className='App-body'>
+				<p>Login to access the full dashboard</p>
+                <form>
                     <label htmlFor='email'>Email:</label>
                     <input type='email' name='email' id='email' />
-                </section>
-                <section className='input'>
                     <label htmlFor='password'>Password: </label>
                     <input type='password' name='password' id='password' />
-                </section>
-                <button>OK</button>
-            </section>
-        </>
+                    <button>OK</button>
+                </form>
+            </div>
+        </React.Fragment>
     );
 }
+
+export default Login;
