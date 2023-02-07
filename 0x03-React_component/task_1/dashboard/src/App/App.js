@@ -64,10 +64,14 @@ class App extends React.Component {
 
 App.defaultProps = {
 	isLoggedIn: false,
+	logOut: () => {
+		return;
+	},
 };
 
 App.propTypes = {
 	isLoggedIn: PropTypes.bool,
+	logOut: PropTypes.func,
 };
 
 export default App;
