@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { getLatestNotification } from '../utils/utils';
 import Notifications from '../Notifications/Notifications';
 import Footer from '../Footer/Footer';
