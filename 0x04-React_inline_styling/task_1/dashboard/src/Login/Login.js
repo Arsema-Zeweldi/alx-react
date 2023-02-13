@@ -1,5 +1,4 @@
 import React from 'react';
-import './Login.css';
 
 const styles = StyleSheet.create({
 	'App-body': {
